@@ -8,7 +8,7 @@ Affichage des données dans le HTML-->
 
     <img src="" alt="">
     <h3> Expériences professionnelles</h3>
-
+<br>
 <?php
 foreach ($experience as $experienceKeys => $experienceValue) {
 ?>
@@ -28,8 +28,13 @@ foreach ($experience as $experienceKeys => $experienceValue) {
 
         <br>
 
-        <p></p>
+        <p><?= $experienceValue['missions'];?>
+        
+        </p>
+
     </section>
+
+    <br>
 
 
 <?php

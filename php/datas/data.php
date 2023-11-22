@@ -1,5 +1,7 @@
 <?php
 
+//Tableaux associatifs reprenant l'ensemble des données des expériences, formations et informations pour remplir le CV
+
 $education = [
     1 => [
         'titleFormation' => "Développeur Web  et Web Mobile",
@@ -43,7 +45,7 @@ $experience = [
         'titlePoste' => "Assistante commerciale Immobilier - Gestion locative",
         'nameEntreprise' => "SEMIV",
         'villeEntreprise'=> "Vélizy-Villacoublay (78), France",
-        'tilemissions' => "",
+        'titleMissions' => "",
         'missions' => "
         Gestion d'un parc locatif de 3000 lots,
         Traitement des demandes de logement (réception, enregistrement, proposition de bien, visite ...),
@@ -60,7 +62,7 @@ $experience = [
         'titlePoste' => "1 an au Canada",
         'nameEntreprise' => "Bar Santé",
         'villeEntreprise'=> "",
-        'tilemissions' => "Employé de Café",
+        'titleMissions' => "Employé de Café",
         'missions' => "Graphisme :
         - Nouvelle création graphique des menus,
         Bar :
@@ -78,7 +80,7 @@ $experience = [
         'titlePoste' => "",
         'nameEntreprise' => "Ubisoft Montréal",
         'villeEntreprise'=> "",
-        'tilemissions' => "Playtester",
+        'titleMissions' => "Playtester",
         'missions' => 
         " Test d’un jeu en développement, 
         Déceler et faire un feedback des issues techniques, graphiques et de jouabilité.",
@@ -91,7 +93,7 @@ $experience = [
         'titlePoste' => "Consultante en Organisation et Systèmes d'Information",
         'nameEntreprise' => "Sopra Stéria",
         'villeEntreprise'=> "Paris (75), France",
-        'tilemissions' => "ACOSS : refonte du site internet du bouquet de service de l'Urssaf.fr
+        'titleMissions' => "ACOSS : refonte du site internet du bouquet de service de l'Urssaf.fr
         Création de la stratégie de test.
         
         ASP (Agence de Service et Paiement) : gestion du système d'information des fonds européens pour la période 2014-2020 
