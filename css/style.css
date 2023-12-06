@@ -1,3 +1,30 @@
-body {
-    border : 2px red;
+#container {
+    background-color : lightpink;
+    display : flex;
+    flex-direction: column;
+    padding : 2em;
+
+}
+
+.main__page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper__education {
+    background-color : white;
+    width: 75%;
+    display : flex;
+    flex-direction: column;
+    padding : 2em;
+    margin : 0.5em 4em 4em;
+}
+
+.wrapper__experience {
+    background-color : white;
+    width: 75%;
+    display : flex;
+    flex-direction: column;
+    padding : 2em;
 }

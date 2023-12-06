@@ -9,46 +9,45 @@ Affichage des données dans le HTML-->
     <img src="" alt="">
     <h3> Expériences professionnelles</h3>
 <br>
-<?php
-foreach ($experience as $experienceKeys => $experienceValue) {
-?>
+    <div class="wrapper__experience">
+        <?php
+        foreach ($experience as $experienceKeys => $experienceValue) {
+        ?>
 
-    <section>
-        <p> <?= $experienceValue['yearWork']; ?>
-        <h4><?= $experienceValue['titlePoste']; ?> </h4>
-        <h5> <?= $experienceValue ['titleMissions']; ?>
+        <section>
+            <p> <?= $experienceValue['yearWork']; ?>
+            <h4><?= $experienceValue['titlePoste']; ?> </h4>
+            <h5> <?= $experienceValue ['titleMissions']; ?>
 
-        <p><?= $experienceValue['nameEntreprise']; 
-            if ($experienceValue['villeEntreprise']==true) {
-            $ville = $experienceValue['villeEntreprise'];
-            echo " - $ville";
-            } else {
-                echo "";
-            }?>
-        </p>
+            <p><?= $experienceValue['nameEntreprise']; 
+                if ($experienceValue['villeEntreprise']==true) {
+                $ville = $experienceValue['villeEntreprise'];
+                echo " - $ville";
+                } else {
+                    echo "";
+                }?>
+            </p>
 
-        <p>
-            <?= $experienceValue['missions'];?>
-        
-        </p>
+            <p>
+                <?= $experienceValue['missions'];?>
+            
+            </p>
+            <br>
+            <p>
+                <?= $experienceValue['skills'];?>
+            
+            </p>
+            <br>
+            <p>
+                <?= $experienceValue['software'];?>
+            
+            </p>
+
+        </section>
+
         <br>
-        <p>
-            <?= $experienceValue['skills'];?>
-        
-        </p>
-        <br>
-        <p>
-            <?= $experienceValue['software'];?>
-        
-        </p>
-
-    </section>
-
-    <br>
-
-
-<?php
-} ;
-?>
-
+        <?php
+        } ;
+        ?>
+    </div>
 </main>
