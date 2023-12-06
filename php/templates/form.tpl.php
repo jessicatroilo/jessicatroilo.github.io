@@ -5,10 +5,11 @@ Données du tableau $education recupérer à l'aide d'un foreach
 Affichage des données dans le HTML-->
 
 <main class ="main__page">
-
-    <img src="" alt="">
-    <h3> Formations</h3>
-    <br>
+    <div class="title">
+        <img src="" alt="">
+        <h3> Formations</h3>
+        <br>
+    </div>
     <div class = "wrapper__education">
         <?php
         foreach ($education as $educationKeys => $educationValue) {

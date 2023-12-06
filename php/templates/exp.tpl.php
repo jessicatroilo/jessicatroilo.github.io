@@ -5,10 +5,12 @@ Données du tableau $experience recupérer à l'aide d'un foreach
 Affichage des données dans le HTML-->
 
 
-
-    <img src="" alt="">
-    <h3> Expériences professionnelles</h3>
-<br>
+    <div class="title">
+        <img src="" alt="">
+        <h3> Expériences professionnelles</h3>
+        <br>
+    </div>
+    
     <div class="wrapper__experience">
         <?php
         foreach ($experience as $experienceKeys => $experienceValue) {
