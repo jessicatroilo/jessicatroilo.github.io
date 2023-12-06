@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>CV Jessica Troilo</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="http://localhost/CV/jessicatroilo.github.io/css/reset.css"/>
+    <link rel="stylesheet" href="http://localhost/CV/jessicatroilo.github.io/css/style.css"/>
+
 </head>
 <body>
     

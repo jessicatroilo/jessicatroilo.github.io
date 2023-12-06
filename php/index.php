@@ -3,7 +3,8 @@ Ceux-ci étant paramétrer pour recevoir le code  -->
 
 <?php
 
-require 'datas/data.php';
-include 'templates/header.tpl.php';
+include 'datas/data.php';
+include './templates/header.tpl.php';
+include 'templates/form.tpl.php';
 include 'templates/exp.tpl.php';
 include 'templates/footer.tpl.php'; 

@@ -4,7 +4,7 @@ les deux fichiers : exp.tpl.php et data.php ont été inclue dans index.php
 Données du tableau $experience recupérer à l'aide d'un foreach
 Affichage des données dans le HTML-->
 
-<main>
+
 
     <img src="" alt="">
     <h3> Expériences professionnelles</h3>
@@ -14,8 +14,9 @@ foreach ($experience as $experienceKeys => $experienceValue) {
 ?>
 
     <section>
-    
+        <p> <?= $experienceValue['yearWork']; ?>
         <h4><?= $experienceValue['titlePoste']; ?> </h4>
+        <h5> <?= $experienceValue ['titleMissions']; ?>
 
         <p><?= $experienceValue['nameEntreprise']; 
             if ($experienceValue['villeEntreprise']==true) {
@@ -26,9 +27,18 @@ foreach ($experience as $experienceKeys => $experienceValue) {
             }?>
         </p>
 
+        <p>
+            <?= $experienceValue['missions'];?>
+        
+        </p>
         <br>
-
-        <p><?= $experienceValue['missions'];?>
+        <p>
+            <?= $experienceValue['skills'];?>
+        
+        </p>
+        <br>
+        <p>
+            <?= $experienceValue['software'];?>
         
         </p>
 
