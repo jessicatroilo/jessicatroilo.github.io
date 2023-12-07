@@ -1,217 +1,50 @@
-/* Corps de la page */
+/* ------Fonts-------- */
 
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#container {
-    background-color : rgb(202, 196, 197);
+.navigation {
+    font-family : 'Aclonica', sans-serif;
+}
+
+/*---------------------*/
+
+/* ------Thème-------- */
+
+
+/*---------------------*/
+
+/* Body */
+
+
+
+/* ------Navigation-------- */
+
+.navigation__wrapper {
     display : flex;
-    flex-direction: column;
-    padding : 2em;
-
+    justify-content: space-between;
+    margin : 0 1em;
+    padding-top : 0.5em;
+    padding-bottom : 0.5em;
+    border-bottom : 0.05em solid;
+    border-color:  rgba(92, 92, 92, 0.767);
+    background-color : #ffffffcc;
+    position : fixed;
+    width: 97vw;
 }
 
-html {
-    --theme-green-main: #4b8;
-    --theme-green-alt: #296;
-    --theme-red-main: rgb(243, 74, 52);
-    --theme-red-alt: rgb(207, 52, 31);
-    --theme-blue-main: rgb(68, 124, 187);
-    --theme-blue-alt: rgb(48, 103, 165);
-    --theme-purple-main: rgb(117, 85, 179);
-    --theme-purple-alt: rgb(93, 48, 165);
-    --theme-orange-main: rgb(247, 143, 95);
-    --theme-orange-alt: rgb(224, 100, 42);
-    --theme-pink-main: rgb(247, 95, 189);
-    --theme-pink-alt: rgb(109, 17, 81);
-  
-    --color-main: var(--theme-green-main);
-    --color-alt: var(--theme-green-alt);
-    --border-normal: 1px solid rgba(0, 0, 0, .2);
-    --color-bg: white;
-    --color-opacity: rgba(0, 0, 0, .1);
-  }
-
-/* Header*/
-
-.header {
-    background-color : white;
-    width: 100%;
-    display : flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0.5em 0 1.5em;
-    margin: 0.5em 0 0.3em
-
+.navigation__menu {
+display : flex;
+align-items: center;
 }
 
-.header__part {
-    border-bottom: var(--border-normal);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/*theme*/
-
-.dark__light {
-    width: 1.5em;
-    height: 1.5em;
-    border : 0;
-    border-radius: 3%;
-    /*background-color: red;*/
-    position: absolute;
-    left: 93.7%;
-    bottom: 94.7%;
-    cursor: pointer ;
-    background-color : white;
-    
-}
-
-/*Titre header*/
-h1 {
-    font-size : 3em;
-    margin-bottom: 0.3em;
-}
-
-h2 {
-    font-size : 2em; 
-    margin-bottom: 0.3em;
-}
-
-/*Nav*/
-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: stretch;
-}
-
-
-.menu {
-    display: flex;
-    align-items: center;
-}
-
-.theme-button {
-    border: 0;
-    border-radius: 50%;
-    color: white;
-    padding: .7rem;
-    display: inline-block;
-    margin-left: .3rem;
-}
-
-.menu__color-switcher {
-    position: absolute;
-    left: 71%;
-    bottom: 94.7%;
-}
-
-#theme-red {
-    background-color: var(--theme-red-main);
-}
-
-#theme-blue {
-    background-color: var(--theme-blue-main);
-}
-
-#theme-green {
-    background-color: var(--theme-green-main);
-}
-
-#theme-purple {
-    background-color: var(--theme-purple-main);
-}
-
-#theme-orange {
-    background-color: var(--theme-orange-main);
-}
-
-
-#theme-pink {
-    background-color: var(--theme-pink-main);
-}
-
-#theme-red:hover {
-    background-color: var(--theme-red-alt);
-}
-
-#theme-blue:hover {
-    background-color: var(--theme-blue-alt);
-}
-
-#theme-green:hover {
-    background-color: var(--theme-green-alt);
-}
-
-#theme-purple:hover {
-    background-color: var(--theme-purple-alt);
-}
-
-#theme-orange:hover {
-    background-color: var(--theme-orange-alt);
-}
-
-#theme-pink:hover {
-    background-color: var(--theme-pink-alt);
-}
-
-.menu__item {
-    margin-right: 1rem;;
-}
-
-ul {
-    display: flex;
-}
-
-li {
-    padding-left : 0.5em;
-    padding-right: 0.5em;
-    
-}
-
-.lien__nav {
+.navigation__menu__li {
     text-decoration: none;
-    color : purple;
+    padding : 0.5em;
+    font-size : 0.9em;
+    color : rgb(95, 93, 93);
+    
 }
 
-.lien__nav:hover {
-    background-color : lightblue;
-    color : darkorchid; 
-}
-
-
-
-/* Main*/
-.main__page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.title {
-    background-color : white;
-    width: 100%;
-    margin : 0.5em;
-    font-size: 2em;
-    text-align: center;
-}
-
-.wrapper__education {
-    background-color : white;
-    width: 100%;
-    display : flex;
-    flex-direction: column;
-    padding : 2em;
-    margin : 0.5em 4em 2em;
-}
-
-.wrapper__experience {
-    background-color : white;
-    width: 100%;
-    display : flex;
-    flex-direction: column;
-    padding : 2em;
-}
+/*---------------------------*/
