@@ -18,4 +18,8 @@ Création des fichiers utiles pour la construction de mon CV :
   - /templates/footer.tpl.php : va contenir le footer du site présent sur l'ensemble des pages du site (si plusieurs pages)
   - /tempales/header.tpl.php : va contenir le début du code HTML + le header présent sur l'ensemble des pages du site (si plusieurs pages)
   - index.php : la page qui va s'afficher automatiquement, va contenir grâce à des include et require, l'ensemble des fichiers contenus dans les dossiers datas et templates.
-  
+
+### 07/12/2023 : En-tête - Barre de Nav
+
+Mise en place de la barre de Nav
+Préparation des différents élements pour le dark mode

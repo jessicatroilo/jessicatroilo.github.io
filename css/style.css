@@ -1,22 +1,25 @@
 /* ------Fonts-------- */
-
 body { 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 .navigation {
-    font-family : 'Aclonica', sans-serif;
+    /*font-family : 'Fresca', sans-serif;*/
+    font-size : 1.3em;
 }
 
 /*---------------------*/
 
 /* ------Thème-------- */
 
+#theme-dark {
+    background-color : black;
+    color : white;
+}
+
 
 /*---------------------*/
-
-/* Body */
-
 
 
 /* ------Navigation-------- */
@@ -24,14 +27,14 @@ body {
 .navigation__wrapper {
     display : flex;
     justify-content: space-between;
-    margin : 0 1em;
+    margin : 0 0.1em;
     padding-top : 0.5em;
     padding-bottom : 0.5em;
-    border-bottom : 0.05em solid;
-    border-color:  rgba(92, 92, 92, 0.767);
+    /*  border-bottom : 0.05em solid;
+    border-color:  rgba(92, 92, 92, 0.767); */
     background-color : #ffffffcc;
     position : fixed;
-    width: 97vw;
+    width: 100%;
 }
 
 .navigation__menu {
@@ -46,5 +49,58 @@ align-items: center;
     color : rgb(95, 93, 93);
     
 }
+.navigation__menu__li:hover{
+    background-color : #D4E2D4;
+    color : #739072;
+    border : 0.5px, solid;
+    border-radius : 0.5em;
+}
 
-/*---------------------------*/
+.wrapper__button {
+    display : flex;
+    
+}
+
+.button {
+    background-color: white;
+    padding: 0;
+    cursor: pointer;
+    border : 1px solid grey;
+    margin-right: 2.5em;
+}
+
+
+
+/* ------Icone-------- */
+
+.fa-regular, .far {
+    font-weight: 400;
+    font-size: large;
+    border: solid 1px gray;
+    padding: 0.2em;
+}
+
+.fa-sun:hover {
+    background-color: black;
+    color: white;
+}
+
+.fa-moon:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.fa-moon {
+    background-color: black;
+    color: white;
+}
+
+.fa-sun {
+    background-color: white;
+    color: black;
+}
+
+
+
+/*---------------------*/

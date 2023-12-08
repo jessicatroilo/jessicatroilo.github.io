@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" lang="fr">
     <title>CV Jessica Troilo</title>
 
     <!-- CSS -->
@@ -11,25 +11,31 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=aclonica:400" rel="stylesheet" />
+    <link href="https://fonts.bunny.net/css?family=fresca:400" rel="stylesheet" />
 
 </head>
-<body>
+<body id="theme-dark">
     <div id = "container">
         <header class = "header">
         <!-- -------------Navigation-------------- -->
             <nav class="navigation">
-                <div class ="navigation__wrapper">
+                <div id="theme-dark" class ="navigation__wrapper">
                     <button><i>bouton</i></button> <!-- ramène à l'accueil -->
-                    <!--<label>icone</label>  logo de moi -->
-                        <ul class = "navigation__menu">
-                            <li><a class="navigation__menu__li" href="">Qui suis-je ?</a></li>
-                            <li><a class="navigation__menu__li" href="./form.tpl.php">Formations</a></li>
-                            <li><a class="navigation__menu__li" href="#experiences">Expériences</a></li>
-                            <li><a class="navigation__menu__li"href="./skills.tpl.php">Compétences</a></li>
-                            <li><a class="navigation__menu__li" href="./portfolio.tpl.php">Mes réalisations</a></li>
-                            <li><a class="navigation__menu__li" href="./footer.tpl.php">Contact</a></li>
-                        </ul>
-                    <button><i>theme noir/light</i> </button> <!-- changement de theme -->
+                    
+                    <ul class = "navigation__menu">
+                        <li><a class="navigation__menu__li" href="#identity">Qui suis-je ?</a></li>
+                        <li><a class="navigation__menu__li"href="#skills">Compétences</a></li>
+                        <li><a class="navigation__menu__li" href="#formations">Formations</a></li>
+                        <li><a class="navigation__menu__li" href="#experiences">Expériences</a></li>
+                        <li><a class="navigation__menu__li" href="#portfolio">Réalisations</a></li>
+                        <li><a class="navigation__menu__li" href="#contact">Contact</a></li>
+                    </ul>
+
+                    <button class="button" type ="button"><!-- changement de theme dark/light-->
+                    <i class="fa-regular fa-moon"></i>
+                    
+                    </button> 
+                    
                 </div>
                 
             </nav>
