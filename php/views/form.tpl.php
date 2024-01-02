@@ -4,7 +4,7 @@ les deux fichiers : form.tpl.php et data.php ont été inclue dans index.php
 Données du tableau $education recupérer à l'aide d'un foreach
 Affichage des données dans le HTML-->
 
-<main class ="main__page">
+
     <div class="title">
         <img src="" alt="">
         <h3> Formations</h3>

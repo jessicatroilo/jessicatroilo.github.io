@@ -52,4 +52,4 @@ Affichage des données dans le HTML-->
         } ;
         ?>
     </div>
-</main>
+

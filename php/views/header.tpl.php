@@ -14,13 +14,13 @@
     <link href="https://fonts.bunny.net/css?family=fresca:400" rel="stylesheet" />
 
 </head>
-<body id="theme-dark">
+<body>
     <div id = "container">
         <header class = "header">
         <!-- -------------Navigation-------------- -->
             <nav class="navigation">
-                <div id="theme-dark" class ="navigation__wrapper">
-                    <button><i>bouton</i></button> <!-- ramène à l'accueil -->
+                <div class ="navigation__wrapper">
+                    <button><i>JT</i></button> <!-- ramène à l'accueil -->
                     
                     <ul class = "navigation__menu">
                         <li><a class="navigation__menu__li" href="#identity">Qui suis-je ?</a></li>
@@ -30,9 +30,9 @@
                         <li><a class="navigation__menu__li" href="#portfolio">Réalisations</a></li>
                         <li><a class="navigation__menu__li" href="#contact">Contact</a></li>
                     </ul>
-
-                    <button class="button" type ="button"><!-- changement de theme dark/light-->
-                    <i class="fa-regular fa-moon"></i>
+                    <!-- changement de theme dark/light
+                    <button class="button" type ="button">
+                    <i class="fa-regular fa-moon"></i>-->
                     
                     </button> 
                     
