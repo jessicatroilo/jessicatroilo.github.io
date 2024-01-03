@@ -1,0 +1,40 @@
+# on active le moteur de réécriture de Apache
+RewriteEngine On
+
+# Condition de réécriture
+# => RewriteCond
+
+# Règle de réécriture (si la ou les conditions sont vraies)
+# => RewriteRule
+
+# dynamically setup base URI
+RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
+# retourne la valeur dans une variable d'environnement serveur
+# accessible en PHP via $_SERVER['BASE_URI'];
+RewriteRule ^(.*) - [E=BASE_URI:%1]
+
+# /!\ avec le code ci-dessous TOUTES LES 404 du dossier PUBLIC
+# ne sont PLUS GEREES PAR APACHE mais par NOTRE CODE
+
+# si aucun dossier du nom demandé n'existe
+RewriteCond %{REQUEST_FILENAME} !-d
+# ET si aucun fichier du nom demandé n'existe
+RewriteCond %{REQUEST_FILENAME} !-f
+# redirect every request to index.php (AltoRouter)
+# voir : https://dannyvankooten.github.io/AltoRouter/usage/rewrite-requests.html
+RewriteRule . index.php [L]
+
+# le code précédent de O'shop
+# and give the relative URL in "page" GET param
+# RewriteRule ^(.*)$ index.php?page=/$1 [QSA,L]
+# par ex. /store => index.php?page=/store
+
+# see https://httpd.apache.org/docs/2.4/rewrite/flags.html#flag_l
+# see https://httpd.apache.org/docs/2.4/rewrite/flags.html#flag_qsa
+
+# ... sinon, on sert le/les fichiers existants
+
+# voir https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html :D
+
+# exemple de règle pour extraire un identifiant
+# RewriteRule ^\/category\/(.*)$ index.php?page=category&id=$1 [QSA,L]

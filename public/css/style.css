@@ -1,0 +1,43 @@
+
+
+/* ------Images-------- */
+
+#hero {
+    width: 100%;
+}
+
+/*---------------------*/
+
+/* ------Links-------- */
+
+a {
+    text-decoration : none;
+}
+
+/*---------------------*/
+
+/* ------Navigation------- */
+
+.container-fluid {
+    background-color : white;
+}
+
+/*---------------------*/
+
+/* ------Accueil------- */
+
+.card {
+    border: none;
+}
+
+.card-body {
+    background-color : #F9F9F9;
+    
+    
+}
+
+.card-text {
+    font-size: 1.3em;
+}
+
+/*---------------------*/
