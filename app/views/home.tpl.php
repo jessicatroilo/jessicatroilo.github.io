@@ -1,10 +1,10 @@
 
 <!-- -------------Présentation-------------- -->
 <main>
-    <div class="card mb-3" style= "border: none; ">
-        <section class="card-body d-flex flex-row justify-content-evenly ">
-            <div class="p-2 d-flex flex-column justify-content-center">
-                <h1 class="card-title"> Développeuse Fullstack PHP/JS </h1>
+    <div class="card" style= "border: none;">
+        <section class="card-body d-flex flex-row justify-content-evenly p-5" style="background-color : #BEC6C3;">
+            <div class="p-2 d-flex flex-column justify-content-center mt-5 pt-5">
+                <h1 class="card-title fw-bold"> Développeuse Fullstack PHP/JS </h1>
                     <p class="card-text"> Hello ! Je m'appelle Jessica Troilo et je suis une développeuse fullstack basée en Ile-de-France. </p>
                     <div class="d-flex flex-row align-items-center p-1">
                         <a href="https://github.com/jessicatroilo" style="text-decoration: none;" class= "p-2">
@@ -20,7 +20,7 @@
                     </div>
             </div>
 
-            <div class="p-2">
+            <div class="p-2 mt-5 pt-2">
                 <img  id = "hero" class="card-img" src="<?= $_SERVER['BASE_URI']?>/images/profil-jessica-troilo.jpeg" alt="photo profil Jessica Troilo" >
             </div>
             

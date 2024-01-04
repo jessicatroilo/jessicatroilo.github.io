@@ -1,10 +1,12 @@
-    <section>
+<!-- -------------Contact-------------- -->
+    <div class="card d-flex" style= "border: none; ">
+        <section class="card-body d-flex flex-column p-5" style="background-color : #BEC6C3;">
 
-        <h4> Me contacter </h4>
-        <h3> Accroche </h3>
+            <h3 class="card-title text-success">Contact</h3>
+            
+            <p class = "card-text fs-6">jessica.troilo25@gmail.com</p>
 
-        <p> Ile-de-France ou full remote</p>
-        <p> jessica.troilo25@gmail.com </p>
-        
-    </section>
+        </section>
+    </div>
+<!-- ----------------------------------- -->
 </main>
