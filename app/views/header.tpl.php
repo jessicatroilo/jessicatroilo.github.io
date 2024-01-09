@@ -11,7 +11,8 @@
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <!-- Fonts -->
+    <!-- Favicone -->
+    <link rel="icon" type="image/png" href="<?= $_SERVER['BASE_URI']?>/images/code.png" />
     
 
 </head>
@@ -21,7 +22,10 @@
         <!-- -------------Navigation-------------- -->
             <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-white shadow-sm p-0">
                 <div class="container-fluid p-2">
-                    <a class="navbar-brand p-2" href="#home">JT</a><!-- ramène à l'accueil -->
+                    <a class="navbar-brand p-2" href="#home">
+                    <img width="35" height="35" src="<?= $_SERVER['BASE_URI']?>/images/code.png" alt="Image illustration code">
+                        JT
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

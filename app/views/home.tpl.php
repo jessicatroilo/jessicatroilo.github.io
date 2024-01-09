@@ -2,9 +2,9 @@
 <!-- -------------Présentation-------------- -->
 <main>
     <div class="card" style= "border: none;">
-        <section class="card-body d-flex flex-row justify-content-evenly p-5" style="background-color : #BEC6C3;">
+        <section id="home" class="card-body d-flex flex-row justify-content-evenly p-5" style="background-color : #BEC6C3;">
             <div class="p-2 d-flex flex-column justify-content-center mt-5 pt-5">
-                <h1 class="card-title fw-bold"> Développeuse Fullstack PHP/JS </h1>
+                <h1 id="home" class="card-title fw-bold"> Développeuse Fullstack PHP/JS </h1>
                     <p class="card-text"> Hello ! Je m'appelle Jessica Troilo et je suis une développeuse fullstack basée en Ile-de-France. </p>
                     <div class="d-flex flex-row align-items-center p-1">
                         <a href="https://github.com/jessicatroilo" style="text-decoration: none;" class= "p-2">
