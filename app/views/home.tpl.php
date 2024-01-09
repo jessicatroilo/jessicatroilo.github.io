@@ -21,7 +21,7 @@
             </div>
 
             <div class="p-2 mt-5 pt-2">
-                <img  id = "hero" class="card-img" src="<?= $_SERVER['BASE_URI']?>/images/profil-jessica-troilo.jpeg" alt="photo profil Jessica Troilo" >
+                <img  id = "hero" class="card-img rounded-circle" src="<?= $_SERVER['BASE_URI']?>/images/profil-jessica-troilo.jpeg" alt="photo profil Jessica Troilo" >
             </div>
             
         </section>
