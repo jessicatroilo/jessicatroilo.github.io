@@ -69,4 +69,25 @@ a {
 a#lien__contact{
     text-decoration : none;
     color : white;
+    cursor : pointer;
+}
+
+.project{
+    width:284px;
+    background:white;
+    margin:24px;
+    border-radius:16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16);
+    overflow: hidden;
+    transition:transform .4s;
+}
+
+.project:hover{
+    /* cursor:pointer; */
+    transform:scale(1.08);
+}
+
+#detail__project{
+    text-decoration: none;
+    color: black;
 }
