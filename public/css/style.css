@@ -1,4 +1,25 @@
 
+/* ------Général------- */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+/*---------------------*/
 
 /* ------Images-------- */
 
@@ -65,13 +86,16 @@ a {
 /*---------------------*/
 
 
-
+/* ------Contact------- */
 a#lien__contact{
     text-decoration : none;
     color : white;
     cursor : pointer;
 }
 
+/*---------------------*/
+
+/* ------Portfolio------- */
 .project{
     width:284px;
     background:white;
@@ -91,3 +115,5 @@ a#lien__contact{
     text-decoration: none;
     color: black;
 }
+
+/*---------------------*/
