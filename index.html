@@ -1,301 +1,521 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" lang="fr">
-    <title>CV Jessica Troilo</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="public/css/reset.css"/> 
-    <link rel="stylesheet" href="public/css/style.css"/>
-
-    <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.css">
-    
-    <!-- Favicone -->
-    <link rel="icon" type="image/png" href="public/images/code.png" />
-    
-
-</head>
-    <body>
-    <div class="wrapper">
-        <div id = "container">
-            <header>
-            <!-- -------------Navigation-------------- -->
-                <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-white shadow-sm p-0">
-                    <div class="container-fluid p-2">
-                        <a class="navbar-brand p-2" href="#home">
-                        <img width="35" height="35" src="public/images/code.png" alt="Image illustration code">
-                            JT
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item"><a class="nav-link" aria-current="page" href="#home">Accueil</a></li>
-                                <li class="nav-item"><a class="nav-link" aria-current="page" href="#identity">Qui suis-je ?</a></li>
-                                <li class="nav-item"><a class="nav-link" aria-current="page" href="#skills">Skills</a></li>
-                                <li class="nav-item"><a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a></li>
-                                <li class="nav-item"><a class="nav-link" aria-current="page" href="#contact">Contact</a></li>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>CV Jessica Troilo</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="public/assets/favicon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="public/css/styles.css" rel="stylesheet" />
+        <!-- Personnalisation template theme CSS -->
+        <link href="public/css/perso.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-nav-color text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><i class="fas fa-house"></i> JT</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-nav-color text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Qui suis-je ?</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">Compétences</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-color text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5 rounded-circle" src="public/assets/img/photo-profil.jpg" alt="Photo de profil de Jessica Troilo" />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Développeuse Fullstack</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-wand-sparkles"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Hello ! Je m'appelle Jessica Troilo et je suis une développeuse fullstack basée en Ile-de-France. </p>
+                <p class="masthead-subheading font-weight-light mb-0">Bienvenue dans mon univers ! </p>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-tree"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="public/assets/img/portfolio/pokedex.svg" alt="Bouton qui affiche plus de détails sur le projet Pokedex" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="public/assets/img/portfolio/shifumoon.svg" alt="Bouton qui affiche plus de détails sur le projet Shifumi-moon" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="public/assets/img/portfolio/tictactoe.svg" alt="Bouton qui affiche plus de détails sur le projet Tic Tac Toe" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="public/assets/img/portfolio/ogalaxy.svg" alt="Bouton qui affiche plus de détails sur le projet OGalaxy" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="public/assets/img/portfolio/patron-couture.svg" alt="Bouton qui affiche plus de détails sur le projet Patrons Couture" />
+                        </div>
+                    </div>
+                  <!-- Portfolio Item 6
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="public/assets/img/portfolio/submarine.png" alt="..." />
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-color text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Qui suis-je ?</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-hat-wizard"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead">Après différentes expériences dans le domaine de la maîtrise d’Ouvrage (MOA) et l'immobilier qui ont renforcé ma polyvalence et mon adaptabilité, j'ai fait le choix de me lancer dans une reconversion dans le développement web. Attirée depuis toujours par la programmation et l'informatique, j'aime résoudre des problèmes. </p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">J'utilise un eventail de langages de programmation, de framework et de librairies, j'aime apprendre et découvrir d'autres. Je me tiens au courant des technologies émérgeante afin que mon travail et les solutions proposées ssoient toujours innovants et dans une amélioration continue.</p></div>
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light me-2" href="https://www.linkedin.com/in/jessica-troilo-dev" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-xl me-2"></i>
+                        Linkedin
+                    </a>
+                    <a class="btn btn-xl btn-outline-light" href="https://github.com/jessicatroilo" target="_blank">
+                        <i class="fa-brands fa-github fa-xl me-2"></i>
+                       Github
+                    </a>
+                </div>
+            </div>
+        </section>
+         <!-- Skill Section-->
+         <section class="page-section mb-0" id="skills">
+            <div class="container">
+                <!-- Skill Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary">Compétences</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-book"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Skills Section Content-->
+                <div class="d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-lg-4 ms-auto me-5 w-40 size-content">
+                            <h3 class="subtitle-color">Hard Skill</h3>
+                            <p class="mt-3 d-flex flex-wrap">
+                                <i class="fa-brands fa-html5 fa-2xl p-1 me-3" style="color: #dd5003;" aria-label ="HTML"></i>
+                                <i class="fa-brands fa-css3-alt fa-2xl p-1 me-3" style="color: #2266d3;" aria-label ="CSS"></i>
+                                <i class="fa-brands fa-php fa-2xl p-1 me-3" style="color: #291957;" aria-label ="PHP"></i> 
+                                <i class="fa-brands fa-js fa-2xl p-1 me-3" style="color: #f7bb18;" aria-label ="JavaScript"></i> 
+                                <i class="fa-brands fa-symfony fa-2xl p-1 me-3" aria-label ="Symfony"></i>
+                                <i class="fa-brands fa-react fa-2xl p-1 me-3" style="color: #0f77c7;" aria-label ="React"></i>
+                                <i class="fa-brands fa-bootstrap fa-2xl p-1 me-3" style="color: #450bf4;" aria-label ="Boostrap"></i>
+                                <i class="fa-solid fa-database fa-2xl p-1" aria-label="SQL"></i>
+                            </p>
+                        </div>
+                        <div class="col-lg-4 me-auto w-30 size-content">
+                            <h3 class="subtitle-color">Soft Skill</h3>
+                            <ul>
+                                <li>Adaptabilité</li>
+                                <li>Curiosité et créativité</li>
+                                <li>Capacité de travail en équipe</li>  
+                                <li>Organisation</li>
+                                <li>Esprit d’analyse</li>
+                                <li>Ecoute</li>
                             </ul>
                         </div>
-
                     </div>
-                    
-                </nav>
-            </header>
-        </div>
-        <!-- ----------------------------------- -->
-
-        
-        <main>
-            <div class="content">
-                <!-- -------------Présentation-------------- -->
-                <div class="card" style= "border: none;">
-                    <section id="home" class="card-body d-flex flex-row justify-content-evenly p-5 bg-primary">
-                        <div class="p-2 d-flex flex-column justify-content-center mt-5 pt-5">
-                            <h1 id="home" class="card-title fw-bold text-primary-emphasis"> Développeuse Fullstack PHP/JS </h1>
-                                <p class="card-text text-success-emphasis"> Hello ! Je m'appelle Jessica Troilo et je suis une développeuse fullstack basée en Ile-de-France. </p>
-                                <div class="d-flex flex-row align-items-center p-1">
-                                    <a href="https://github.com/jessicatroilo" style="text-decoration: none;" class= "p-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" class="bi bi-github" viewBox="0 0 16 16">
-                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                                    </svg>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/jessica-troilo-dev" style="text-decoration: none">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" class="bi bi-linkedin" viewBox="0 0 16 16">
-                                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/>
-                                        </svg>
-                                    </a>
-                                </div>
-                        </div>
-
-                        <div class="p-2 mt-5 pt-2">
-                            <img  id = "hero" class="card-img rounded-circle" src="public/images/profil-jessica-troilo.jpeg" alt="photo profil Jessica Troilo" >
-                        </div>
-                        
-                    </section>
                 </div>
-                <!-- ----------------------------------- -->
-                <!-- -------------Identité-------------- -->
-                <div class="card d-flex" style= "border: none; ">
-                    <section id="identity" class="card-body d-flex flex-column p-5 bg-light text-dark">
-
-                        <h3 class="card-title text-primary-emphasis"> Qui-suis je ?</h3>
-                        <div id = "container__identity" class=" d-flex align-items-center">
-                            <img id = "img__identity" class = "card-img" src="public/images/image-identity.jpg" alt="Image illustration femme ordinateur">
-                            <p class = "card-text fs-5 p-2">Après différentes expériences dans le domaine de la maîtrise d’Ouvrage (MOA) et l'immobilier qui ont renforcé ma polyvalence et mon adaptabilité, j'ai fait le choix de me lancer dans une reconversion dans le développement web. Attirée depuis toujours par la programmation et l'informatique, j'aime résoudre des problèmes. J'utilise un eventail de langages de programmation, de framework et de librairies, j'aime apprendre et découvrir d'autres. Je me tiens au courant des technologies émérgeante afin que mon travail et les solutions proposées ssoient toujours innovants et dans une amélioration continue.</p>
-                        </div>
-                    </section>
-                </div>
-                <!-- ----------------------------------- -->
-                <!-- -------------Skills-------------- -->
-                <div class="card d-flex" style= "border: none; ">
-                    <section id="skills" class="card-body d-flex flex-column p-5 bg-primary" >
-
-                        <h3 class="card-title text-primary-emphasis"> Mes compétences</h3>
-                        
-                        <p class = "card-text fw-bold text-success-emphasis">Hard Skill </p>
-                            <div class= "d-flex align-items-center">
-                                <div class = " d-flex align-items-center flex-column m-4 text-dark">
-                                    <svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="52" fill = "black" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/>
-                                    </svg>
-                                    <p><strong>HTML</strong></p>
-                                </div>
-                                <div class = " d-flex align-items-center flex-column m-4 text-dark">
-                                    <svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="52" fill = "black" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/>
-                                    </svg>
-                                    <p><strong>CSS</strong></p>
-                                </div>
-
-                                <div class = " d-flex align-items-center flex-column m-4 text-dark">
-                                    <svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="54" fill ="black" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5L152 385.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1V381.4c0 43.6-25.6 63.5-62.9 63.5zm85.8-43L301 382.1c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43z"/>
-                                    </svg>
-                                    <p><strong>Javascript</strong></p>
-                                </div>
-
-                                <div class = " d-flex align-items-center flex-column m-4 text-dark">
-                                    <svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="60" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M320 104.5c171.4 0 303.2 72.2 303.2 151.5S491.3 407.5 320 407.5c-171.4 0-303.2-72.2-303.2-151.5S148.7 104.5 320 104.5m0-16.8C143.3 87.7 0 163 0 256s143.3 168.3 320 168.3S640 349 640 256 496.7 87.7 320 87.7zM218.2 242.5c-7.9 40.5-35.8 36.3-70.1 36.3l13.7-70.6c38 0 63.8-4.1 56.4 34.3zM97.4 350.3h36.7l8.7-44.8c41.1 0 66.6 3 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7h-70.7L97.4 350.3zm185.7-213.6h36.5l-8.7 44.8c31.5 0 60.7-2.3 74.8 10.7 14.8 13.6 7.7 31-8.3 113.1h-37c15.4-79.4 18.3-86 12.7-92-5.4-5.8-17.7-4.6-47.4-4.6l-18.8 96.6h-36.5l32.7-168.6zM505 242.5c-8 41.1-36.7 36.3-70.1 36.3l13.7-70.6c38.2 0 63.8-4.1 56.4 34.3zM384.2 350.3H421l8.7-44.8c43.2 0 67.1 2.5 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7H417l-32.8 168.7z"/>
-                                    </svg>
-                                    <p><strong>PHP</strong></p>
-                                </div>
-
-                                <div class = " d-flex align-items-center flex-column m-4 text-dark">
-                                    <svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="58" fill="black" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M333.5 201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4 238.2 333.5 225 333.5 201.4zM517 188.6c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1 0-55.8 28.1-54.7 58.5c1 29.3-.3 67.2-9.8 98.1c-9.6 31-25.7 50.6-52.2 53.1v28.5c26.4 2.5 42.6 22.1 52.2 53.1c9.5 30.9 10.9 68.8 9.8 98.1c-1.1 30.5 22.7 58.5 54.7 58.5h328.7c32.1 0 55.8-28.1 54.7-58.5c-1-29.3 .3-67.2 9.8-98.1c9.6-31 25.7-50.6 52.1-53.1v-28.5C542.7 239.2 526.5 219.6 517 188.6zM300.2 375.1h-97.9V136.8h97.4c43.3 0 71.7 23.4 71.7 59.4c0 25.3-19.1 47.9-43.5 51.8v1.3c33.2 3.6 55.5 26.6 55.5 58.3C383.4 349.7 352.1 375.1 300.2 375.1zM290.2 266.4h-50.1v78.4h52.3c34.2 0 52.3-13.7 52.3-39.5C344.7 279.6 326.1 266.4 290.2 266.4z"/>
-                                    </svg>
-                                    <p><strong>Bootstrap</strong></p>
-                                </div>
-
-                                <div class = " d-flex align-items-center flex-column m-4 text-dark">
-                                    <svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="56" fill ="black" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm133.7 143.5c-11.5 .4-19.4-6.5-19.8-16.9-.3-9.2 6.7-13.4 6.5-18.9-.2-6.6-10.2-6.8-12.9-6.7-39.8 1.3-48.6 57-58.9 113.9 21.4 3.2 36.7-.7 45.1-6.2 12-7.8-3.3-15.7-1.4-24.6 4-18.2 32.6-19 32 5.3-.4 17.9-25.9 41.8-77.6 35.7-10.8 59.5-18.4 115-58.2 161.7-29 34.5-58.4 39.8-71.6 40.3-24.7 .9-41-12.3-41.6-29.8-.6-17 14.5-26.3 24.3-26.6 21.9-.8 30.1 25.7 14.9 34-12.1 9.7 .1 12.6 2.1 12.6 10.4-.4 17.3-5.5 22.2-9 24-20 33.2-54.9 45.4-118.4 8.2-49.7 17-78 18.2-82-16.9-12.8-27.1-28.6-49.9-34.7-15.6-4.2-25.1-.6-31.8 7.8-7.9 10-5.3 23 2.4 30.7l12.6 14c15.5 17.9 24 31.9 20.8 50.6-5.1 29.9-40.7 52.9-82.9 39.9-36-11.1-42.7-36.6-38.4-50.6 7.5-24.2 42.4-11.7 34.6 13.6-2.8 8.6-4.9 8.7-6.3 13.1-4.6 14.8 41.9 28.4 51-1.4 4.5-14.5-5.3-21.7-22.3-39.9-28.5-31.8-16-65.5 3-79.7C204.2 140.1 251.9 197 262 205.3c37.2-109 100.5-105.5 102.4-105.5 25.2-.8 44.2 10.6 44.8 28.7 .3 7.7-4.2 22.6-19.5 23.1z"/>
-                                    </svg>
-                                    <p><strong>Symfony</strong></p>
-                                </div>
-
-                                <div class = "d-flex align-items-center flex-column m-4 text-dark">
-                                    <svg  class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="54" fill="black" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"/>
-                                    </svg>
-                                    <p><strong>SQL</strong></p>
-                                </div>
-                            </div>  
-                        
-                        <br>    
-                        <p class = "card-text fw-bold text-success-emphasis"> Soft Skill </p>
-                        <ul class = "list-style fs-5 text-dark">
-                            <li>- Adaptabilité</li>
-                            <li>- Curiosité et créativité</li>
-                            <li>- Capacité de travail en équipe</li>
-                            <li>- Organisation</li>
-                            <li>- Esprit d’analyse</li>
-                            <li>- Ecoute</li>
-                        </ul>
-
-                    </section>
-                </div>
-                <!-- ----------------------------------- -->
-                <!-- -------------Portfolio-------------- -->
-                <div class="card d-flex" style= "border: none; ">
-                    <section id="portfolio" class="card-body d-flex flex-column p-5 bg-light">
-
-                        <h3 class="card-title text-primary-emphasis"> Portfolio</h3>
-                        
-                        
-                        <p class = "card-text fw-bold text-success-emphasis">Un projet, une nouvelle aventure <img id="icone-portfolio" class = "card-img" src="public/images/aventure.png" alt=""></p>
-                        
-                        <div class="d-flex m-2 ">
-                            <!--<a id="detail__project" href="public/projetOne.html">-->
-                                <div class="card m-2 project bg-light" style="max-width: 25rem">
-                                    <img   src="public/images/pokedex.png" class="card-img-top"  alt="image projet 1 - Pokedex">
-                                    <div class="card-body bg-light">
-                                        <h5 class="card-title fw-bold text-secondary-emphasis">Projet 1</h5>
-                                        <p class="card-text text-dark">POKEDEX :  Liste des 151 pokémons et leurs statistiques. Possibilité de filtrer par type.</p>
-                                        <p><svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="60" fill = "darkviolet" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M320 104.5c171.4 0 303.2 72.2 303.2 151.5S491.3 407.5 320 407.5c-171.4 0-303.2-72.2-303.2-151.5S148.7 104.5 320 104.5m0-16.8C143.3 87.7 0 163 0 256s143.3 168.3 320 168.3S640 349 640 256 496.7 87.7 320 87.7zM218.2 242.5c-7.9 40.5-35.8 36.3-70.1 36.3l13.7-70.6c38 0 63.8-4.1 56.4 34.3zM97.4 350.3h36.7l8.7-44.8c41.1 0 66.6 3 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7h-70.7L97.4 350.3zm185.7-213.6h36.5l-8.7 44.8c31.5 0 60.7-2.3 74.8 10.7 14.8 13.6 7.7 31-8.3 113.1h-37c15.4-79.4 18.3-86 12.7-92-5.4-5.8-17.7-4.6-47.4-4.6l-18.8 96.6h-36.5l32.7-168.6zM505 242.5c-8 41.1-36.7 36.3-70.1 36.3l13.7-70.6c38.2 0 63.8-4.1 56.4 34.3zM384.2 350.3H421l8.7-44.8c43.2 0 67.1 2.5 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7H417l-32.8 168.7z"/>
-                                        </svg>
-                                        <svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="52" fill = "orange" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/>
-                                        </svg>
-                                        <svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="52" fill = "blue" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/>
-                                        </svg>
-                                        </p>
-                                        <a href="https://github.com/jessicatroilo/pokedex/" target="_blank" class="btn btn-primary" >  
-                                            Code sur Github 
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                            <!--</a>--> 
-
-                            <div class="card m-2 project bg-light" style="max-width: 25rem">
-                                <img src="public/images/shifumiMoon.png" class="card-img-top" alt="image projet 2 - Shifumi Moon">
-                                <div class="card-body bg-light" >
-                                    <h5 class="card-title fw-bold text-secondary-emphasis">Projet 2</h5>
-                                    <p class="card-text text-dark">SHIFUMI Moon :  Jeu du Pierre-Feuille-Ciseau revisité</p>
-                                    <p><svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="60" fill = "darkviolet" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M320 104.5c171.4 0 303.2 72.2 303.2 151.5S491.3 407.5 320 407.5c-171.4 0-303.2-72.2-303.2-151.5S148.7 104.5 320 104.5m0-16.8C143.3 87.7 0 163 0 256s143.3 168.3 320 168.3S640 349 640 256 496.7 87.7 320 87.7zM218.2 242.5c-7.9 40.5-35.8 36.3-70.1 36.3l13.7-70.6c38 0 63.8-4.1 56.4 34.3zM97.4 350.3h36.7l8.7-44.8c41.1 0 66.6 3 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7h-70.7L97.4 350.3zm185.7-213.6h36.5l-8.7 44.8c31.5 0 60.7-2.3 74.8 10.7 14.8 13.6 7.7 31-8.3 113.1h-37c15.4-79.4 18.3-86 12.7-92-5.4-5.8-17.7-4.6-47.4-4.6l-18.8 96.6h-36.5l32.7-168.6zM505 242.5c-8 41.1-36.7 36.3-70.1 36.3l13.7-70.6c38.2 0 63.8-4.1 56.4 34.3zM384.2 350.3H421l8.7-44.8c43.2 0 67.1 2.5 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7H417l-32.8 168.7z"/>
-                                    </svg>
-                                    <svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="52" fill = "orange" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/>
-                                    </svg>
-                                    <svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="52" fill = "blue" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/>
-                                    </svg>
-                                    </p>
-                                    <a href="https://github.com/jessicatroilo/shifumi-moon" target="_blank" class="btn btn-primary">  
-                                        Code sur Github 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="card m-2 project bg-light" style="max-width: 25rem">
-                                <img src="public/images/tictactoe.png" class="card-img-top" alt="image projet 3 - Tic Tac Toe">
-                                <div class="card-body bg-light">
-                                    <h5 class="card-title fw-bold text-secondary-emphasis">Projet 3</h5>
-                                    <p class="card-text text-dark">TIC TAC TOE :  Jeu du Tic Tac Toe (Morpion) revisité</p>
-                                    <p><svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="54" fill ="#FFCF00" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5L152 385.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1V381.4c0 43.6-25.6 63.5-62.9 63.5zm85.8-43L301 382.1c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43z"/>
-                                    </svg>
-                                    <svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="52" fill = "orange" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/>
-                                    </svg>
-                                    <svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="52" fill = "blue" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/>
-                                    </svg>
-                                    </p>
-                                    <a href="https://github.com/jessicatroilo/tic-tac-toe" target="_blank" class="btn btn-primary">  
-                                        Code sur Github 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                                        </svg>
-                                    </a>
-                                    <a href="https://jessicatroilo.github.io/tic-tac-toe" target="_blank" class="btn btn-secondary" style="margin-top: 0.5em">  
-                                        Pour tester le jeu 
-                                        
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="card m-2 project bg-light" style="max-width: 25rem">
-                                <img src="public/images/patrons-couture.png" class="card-img-top" alt="image projet 4 - patrons-couture">
-                                <div class="card-body bg-light">
-                                    <h5 class="card-title fw-bold text-secondary-emphasis">Projet 4</h5>
-                                    <p class="card-text text-dark">PATRONS COUTURE:  Intégration site en responsive</p>
-                                    <p><svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="52" fill = "orange" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/>
-                                    </svg>
-                                    <svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="52" fill = "blue" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/>
-                                    </svg>
-                                    <svg class="p-2" xmlns="http://www.w3.org/2000/svg" height="56" width="58" fill="purple" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M333.5 201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4 238.2 333.5 225 333.5 201.4zM517 188.6c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1 0-55.8 28.1-54.7 58.5c1 29.3-.3 67.2-9.8 98.1c-9.6 31-25.7 50.6-52.2 53.1v28.5c26.4 2.5 42.6 22.1 52.2 53.1c9.5 30.9 10.9 68.8 9.8 98.1c-1.1 30.5 22.7 58.5 54.7 58.5h328.7c32.1 0 55.8-28.1 54.7-58.5c-1-29.3 .3-67.2 9.8-98.1c9.6-31 25.7-50.6 52.1-53.1v-28.5C542.7 239.2 526.5 219.6 517 188.6zM300.2 375.1h-97.9V136.8h97.4c43.3 0 71.7 23.4 71.7 59.4c0 25.3-19.1 47.9-43.5 51.8v1.3c33.2 3.6 55.5 26.6 55.5 58.3C383.4 349.7 352.1 375.1 300.2 375.1zM290.2 266.4h-50.1v78.4h52.3c34.2 0 52.3-13.7 52.3-39.5C344.7 279.6 326.1 266.4 290.2 266.4z"/>
-                                    </svg>
-                                    </p>
-                                    <a href="https://github.com/jessicatroilo/mes-patrons-couture" target="_blank" class="btn btn-primary">  
-                                        Code sur Github 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                                        </svg>
-                                    </a>
-                                    <a href="https://jessicatroilo.github.io/mes-patrons-couture/" target="_blank" class="btn btn-secondary" style="margin-top: 0.5em">  
-                                        Pour tester le site
-                                        
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- ----------------------------------- -->
-                <!-- -------------Contact-------------- -->
-                <div class="card d-flex" style= "border: none; ">
-                    <section id="contact" class="card-body bg-primary d-flex flex-column p-5" >
-
-                        <h3 class="card-title text-primary-emphasis">Contact</h3>
-                        
-                        <a  class="link-offset-2 link-underline link-underline-opacity-0" href="mailto:jessica.troilo25@gmail.com">
-                        <p class = "text-black card-text fs-6 justify-content-center p-2">
-                            <img class="p-2" src="public/images/e-mail.png" width="55" height="55" alt="Illustration pour adresse mail">
-                            jessica.troilo@me.com
-                        </p>
-                        </a>
-
-                    </section>
-                </div>
-                <!-- ----------------------------------- -->
             </div>
-        </main>
-        <footer class = "bg-dark footer">
-            <div class="d-flex flex-column justify-content-center text-center p-4">
-                <p class="text-white"> Copyright &#169 2024 - Tous droits réservés </p>
-                    <div class = "flex-row align-items-center">
-                        <a target="_blank" href="https://github.com/jessicatroilo" style="text-decoration: none;" class= "p-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-github" viewBox="0 0 16 16">
-                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                        </svg>
-                        </a>
-                        <a target="_blank" href="https://www.linkedin.com/in/jessica-troilo-dev" style="text-decoration: none">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
-                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/>
-                        </svg>
-                        </a>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section bg-color text-white" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Contact</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-broom"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Form-->
+                 
+               <div class="row justify-content-center">
+                    <!-- <p class="request_message"> Message envoyé ! </p> -->
+                    
+                   <div class="col-lg-8 col-xl-7">
+                    <p> Le fomulaire de contact arrive bientôt ! En attendant vous pouvez me contacter directement par mail :</p>   
+                    <a href="mailto:jessica.troilo@me.com">jessica.troilo@me.com </a> <i class="ms-2 fa-solid fa-feather fa-xl"></i>.
+
+                        <!--  <form action="mail.php" method="post">
+                           <div class=" form-floating mb-3">
+                                <label class="form-label" for="name">Nom et Prénom</label>
+                                <input class="form-control" type="text" name="name" id="name" required>
+                           </div> 
+                           <div class="form-floating mb-3">
+                                <label class="form-label" for="email">Email</label>
+                                <input class="form-control" type="email" name="email" id="email" required>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" name="message" id="message" cols="30" rows="50" required></textarea>
+                                <label class="form-label" for="message">Message</label>
+                            </div> 
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-color-link">Envoyer</button>
+                            </div>
+                        </form>-->
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center bg-footer-color">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Localisation</h4>
+                        <p class="lead mb-0">
+                            Ile-de-France
+                            <br />
+                            Full Remote
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Mes réseaux</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.linkedin.com/in/jessica-troilo-dev"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://github.com/jessicatroilo"><i class="fab fa-fw fa-github"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">Développeuse FullStack</h4>
+                        <p class="lead mb-0">
+                            Une opportunité, une idée, un projet, contactez-moi
+                            <a href="mailto:jessica.troilo@me.com">par mail ! </a> <i class="far fa-paper-plane"></i>
+                            .
+                        </p>
                     </div>
                 </div>
+            </div>
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    </div>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white bg-nav-color">
+            <div class="container"><small>Copyright &copy; jessicatroilo.github.io 2024</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bouton poour fermer la fenêtre"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Pokedex</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-baseball"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/pokedex-list.png" alt="Screenshot du site Pokedex" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4"> Site reprenant la liste des 151 pokémons composé de plusieurs pages : la liste des pokémons, la liste de catégories et le détail d'un pokémon avec ses caractéristiques. Projet réalisé en respectant le modèle MVC (Model-View-Controller).</p>
+                                    <p class="mb-4"> Réalisé avec 
+                                        <i class="fa-brands fa-php fa-2xl" style="color: #291957;" aria-label ="PHP"></i> 
+                                        <i class="fa-brands fa-html5 fa-2xl" style="color: #dd5003;" aria-label ="HTML"></i>
+                                        <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2266d3;" aria-label ="CSS"></i> 
+                                        <i class="fa-brands fa-bootstrap fa-2xl" style="color: #450bf4;" aria-label ="Boostrap"></i>
+                                    </p>
+                                    <a href="https://github.com/jessicatroilo/pokedex/" target="_blank" aria-label="Lien qui ouvre un nouvel onglet pour avoir le code sur Github" class="btn btn-color">  
+                                        Code sur Github 
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bouton pour fermer la fenêtre"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Shifumi Moon</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-moon"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/shifumiMoon.png" alt="Screenshot du site Shifumi-moon" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Jeu du Pierre-Feuille-Ciseau revisité en Cristal-Parchemin-Dague. Le joueur joue contre la machine en choissisant un des trois choix, puis le résultat s'affiche avec les choix séléctionnés et l'issue du match.</p>
+                                    <p class="mb-4"> Réalisé avec 
+                                        <i class="fa-brands fa-php fa-2xl" style="color: #291957;" aria-label ="PHP"></i> 
+                                        <i class="fa-brands fa-html5 fa-2xl" style="color: #dd5003;" aria-label ="HTML"></i>
+                                        <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2266d3;" aria-label ="CSS"></i> 
+                                    </p>
+                                    <a href="https://github.com/jessicatroilo/shifumi-moon" target="_blank" aria-label="Lien qui ouvre un nouvel onglet pour avoir le code sur Github" class="btn btn-color">  
+                                        Code sur Github 
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tic Tac Toe</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-flask"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/tictactoe.png" alt="Screenshot du site Tic Tac Toe" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Jeu du Tic Tac Toe (Morpion) revisité dans un unvivers magique. Deux joueurs s'affronte en plusieurs manches. Le résultat s'affiche à chaque fin de manches.</p>
+                                    <p class="mb-4"> Réalisé avec 
+                                        <i class="fa-brands fa-js fa-2xl" style="color: #f7bb18;" aria-label ="JavaScript"></i> 
+                                        <i class="fa-brands fa-html5 fa-2xl" style="color: #dd5003;" aria-label ="HTML"></i>
+                                        <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2266d3;" aria-label ="CSS"></i> 
+                                    </p>
+                                    <a href="https://github.com/jessicatroilo/shifumi-moon" target="_blank" aria-label="Lien qui ouvre un nouvel onglet pour avoir le code sur Github" class="btn btn-color">  
+                                        Code sur Github 
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="https://jessicatroilo.github.io/tic-tac-toe" target="_blank" class="btn btn-color-link" aria-label="Lien ouvrant un onglet vers le jeu">  
+                                        Pour tester le jeu  
+                                        <i class="fa-solid fa-circle-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bouton pour fermer la fenêtre"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">O'Galaxy</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fa-solid fa-rocket"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/ogalaxy-expedition.png" alt="Screenshot du site OGalaxy" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Au cours de mon projet de fin d'études, j'ai eu le privilège de collaborer avec une équipe de cinq personnes pour donner vie à une vision intergalactique. En l'espace de quatre semaines, nous avons conçu et développé le site web O'Galaxy de A à Z.
+                                    </p>
+                                    <p class="mb-4">📝 Présentation du Projet :
+                                        O'Galaxy, notre création, est un portail de réservation de voyage intergalactique, puisant son inspiration dans l'univers épique de Star Wars. Notre ambition était claire : rendre les voyages intergalactiques accessibles à tous, une frontière encore inexploitée par les agences spatiales. En prime, notre site offre la possibilité de découvrir les planètes emblématiques de l'univers Star Wars.
+                                    </p>   
+                                    <p class="mb-4"></p>   📊 Gestion de Projet :
+                                        Pour mener à bien cette aventure, nous avons opté pour la méthodologie agile SCRUM. Notre projet s'est articulé autour de sprints successifs, avec des tâches précises à accomplir à chaque étape. Des points réguliers avec l'équipe ont favorisé une communication fluide et une coordination optimale. Du cahier des charges à la gestion du backlog, chaque étape a été minutieusement planifiée et exécutée.
+                                    </p>
+                                    <p class="mb-4"> Réalisé avec 
+                                        <i class="fa-brands fa-symfony fa-2xl" aria-label ="Symfony"></i>
+                                        <i class="fa-brands fa-php fa-2xl" style="color: #291957;" aria-label ="PHP"></i> 
+                                        <i class="fa-brands fa-html5 fa-2xl" style="color: #dd5003;" aria-label ="HTML"></i>
+                                        <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2266d3;" aria-label ="CSS"></i> 
+                                    </p>
+                                    <a href="https://github.com/jessicatroilo/ogalaxy" target="_blank" aria-label="Lien qui ouvre un nouvel onglet pour avoir le code sur Github" class="btn btn-color">  
+                                        Code sur Github 
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bouton pour fermer la fenêtre"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Collection de mes patrons de couture</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fa-solid fa-lines-leaning"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/patrons-couture.png" alt="Screenshot du site Ma collection de patron couture" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Présentation d'une partie de ma collection de patrons de couture dans un site totalement Responsive.</p>
+                                    <p class="mb-4"> Réalisé avec 
+                                        <i class="fa-brands fa-php fa-2xl" style="color: #291957;" aria-label ="PHP"></i> 
+                                        <i class="fa-brands fa-html5 fa-2xl" style="color: #dd5003;" aria-label ="HTML"></i>
+                                        <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2266d3;" aria-label ="CSS"></i> 
+                                        <i class="fa-brands fa-bootstrap fa-2xl" style="color: #450bf4;" aria-label ="Boostrap"></i>
+                                    </p>
+                                    <a href="https://github.com/jessicatroilo/mes-patrons-couture" target="_blank" aria-label="Lien qui ouvre un nouvel onglet pour avoir le code sur Github" class="btn btn-color">  
+                                        Code sur Github 
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="https://jessicatroilo.github.io/mes-patrons-couture/" target="_blank" class="btn btn-color-link" aria-label="Lien ouvrant un onglet vers le site">  
+                                        Pour tester le site
+                                        <i class="fa-solid fa-circle-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    Portfolio Modal - Title
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                    Icon Divider
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    Portfolio Modal - Image
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    Portfolio Modal - Text
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-color" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="public/js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>

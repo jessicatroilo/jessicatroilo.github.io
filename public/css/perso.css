@@ -1,0 +1,73 @@
+/* Personnalisation du thème */
+
+:root {
+   --color-beige: #887970;
+   --color-bordeaux: rgb(123, 28, 65);
+   --color-jaune: #DB9724;
+   --color-vert: #94A284;
+   --color-noir: #302B2D;
+   --color-blanc : white; 
+
+}
+
+
+/** NAV */
+/* Couleur hover autre fichier css 10910 +10938 */
+.bg-nav-color {
+    background-color: var(--color-noir);
+}
+
+
+
+/** BODY */
+.bg-color {
+    background-color: var(--color-bordeaux);
+}
+
+/** HEADER */
+header {
+    background-image: linear-gradient(rgba(123, 28, 64, 0.64), rgba(123, 28, 65, 0.64)),
+        url("../assets/img/bg-cv.svg");
+    background-size: 100%;
+}
+        
+/** PORTOFOLIO */
+/* MODAL */
+.btn-color {
+    background-color: var(--color-bordeaux);
+    color: var(--color-blanc);
+
+}
+
+.btn-color:hover {
+    background-color: rgb(78, 25, 46) ;
+    color: var(--color-blanc);
+
+}
+
+.btn-color-link {
+    background-color: var(--color-beige);
+    color: var(--color-blanc);
+}
+
+.btn-color-link:hover {
+    background-color: #534a44;
+    color: var(--color-blanc);
+}
+
+/** ABOUT */
+.subtitle-color {
+    color: var(--color-bordeaux);
+    font-size: 2em;
+}
+
+.size-content {
+    font-size: 1.8em;
+}
+
+/** FOOTER */
+.bg-footer-color {
+    background-color: var(--color-beige);
+}
+
+/* */
