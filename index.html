@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="description" content="Portfolio de la superbe Jessica Troilo, développeuse Full Stack spécialisée en PHP/Symfony et éco-conception. Découvrez mes projets, compétences techniques et parcours professionnel" />
+        <meta name="author" content="Jessica Troilo" />
+        <meta name="keywords" content="développeur web, full stack, PHP, Symfony, Eco-conception, JavaScript, portfolio, développeur frontend, développeur backend" />
         <title>CV Jessica Troilo</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="public/assets/favicon.png" />
@@ -18,21 +19,21 @@
         <!-- Personnalisation template theme CSS -->
         <link href="public/css/perso.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+    <body id="top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-nav-color text-uppercase fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg bg-nav-color text-uppercase fixed-top" id="mainNav" role=""navigation">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><i class="fas fa-house"></i> JT</a>
+                <a class="navbar-brand" href="#top" aria-label="Bouton pour remonter en haut de la page"><span class="text-lowercase text-color-white">jessica</span><span class="text-color-medium text-lowercase">troilo</span></a>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-nav-color text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Qui suis-je ?</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">Compétences</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                        <li class="nav-item  mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio" aria-label="Lien cliquable pour aller à la section Portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about" aria-label="Lien cliquable pour aller à la section Qui-suis-je">Qui suis-je ?</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills" aria-label="Lien cliquable pour aller à la section Compétences">Compétences</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact" aria-label="Lien pour aller à la section conatct">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,13 +42,13 @@
         <header class="masthead bg-color text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5 rounded-circle" src="public/assets/img/photo-profil.jpg" alt="Photo de profil de Jessica Troilo" />
+                <img class="masthead-avatar mb-5 rounded-circle" src="public/assets/img/photo-profil.webp" alt="Photo de profil de Jessica Troilo" />
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Développeuse Fullstack</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-wand-sparkles"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-wand-sparkles text-color-medium"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
@@ -56,14 +57,14 @@
             </div>
         </header>
         <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
+        <section class="page-section portfolio bg-color" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Portfolio</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom">
+                <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-tree"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-tree text-color-medium"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
@@ -74,7 +75,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="public/assets/img/portfolio/pokedex.svg" alt="Bouton qui affiche plus de détails sur le projet Pokedex" />
+                            <img class="img-fluid h-100 w-100" src="public/assets/img/portfolio/pokedex-cover.webp" alt="Bouton qui affiche plus de détails sur le projet Pokedex" />
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
@@ -83,7 +84,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="public/assets/img/portfolio/shifumoon.svg" alt="Bouton qui affiche plus de détails sur le projet Shifumi-moon" />
+                            <img class="img-fluid h-100 w-100" src="public/assets/img/portfolio/shifumi-cover.webp" alt="Bouton qui affiche plus de détails sur le projet Shifumi-moon" />
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
@@ -92,7 +93,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="public/assets/img/portfolio/tictactoe.svg" alt="Bouton qui affiche plus de détails sur le projet Tic Tac Toe" />
+                            <img class="img-fluid h-100 w-100" src="public/assets/img/portfolio/tictactoe-cover.webp" alt="Bouton qui affiche plus de détails sur le projet Tic Tac Toe" />
                         </div>
                     </div>
                     <!-- Portfolio Item 4-->
@@ -101,7 +102,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="public/assets/img/portfolio/ogalaxy.svg" alt="Bouton qui affiche plus de détails sur le projet OGalaxy" />
+                            <img class="img-fluid h-100 w-100" src="public/assets/img/portfolio/ogalaxy-cover.webp" alt="Bouton qui affiche plus de détails sur le projet OGalaxy" />
                         </div>
                     </div>
                     <!-- Portfolio Item 5-->
@@ -110,18 +111,20 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="public/assets/img/portfolio/patron-couture.svg" alt="Bouton qui affiche plus de détails sur le projet Patrons Couture" />
+                            <img class="img-fluid h-100 w-100" src="public/assets/img/portfolio/patrons-couture-cover.webp" alt="Bouton qui affiche plus de détails sur le projet Patrons Couture" />
                         </div>
                     </div>
-                  <!-- Portfolio Item 6
-                    <div class="col-md-6 col-lg-4">
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="public/assets/img/portfolio/submarine.png" alt="..." />
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <img class="img-fluid h-100 w-100" src="public/assets/img/portfolio/matcha-bloom-cover.webp" alt="Bouton qui affiche plus de détails sur le projet Patrons Couture" />
+                            </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </section>
@@ -133,7 +136,7 @@
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-hat-wizard"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-hat-wizard text-color-medium"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
@@ -155,14 +158,14 @@
             </div>
         </section>
          <!-- Skill Section-->
-         <section class="page-section mb-0" id="skills">
+         <section class="page-section mb-0 bg-color" id="skills">
             <div class="container">
                 <!-- Skill Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary">Compétences</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white">Compétences</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom">
+                <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-book"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-book text-color-medium"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Skills Section Content-->
@@ -171,19 +174,19 @@
                         <div class="col-lg-4 ms-auto me-5 w-40 size-content">
                             <h3 class="subtitle-color">Hard Skill</h3>
                             <p class="mt-3 d-flex flex-wrap">
-                                <i class="fa-brands fa-html5 fa-2xl p-1 me-3" style="color: #dd5003;" aria-label ="HTML"></i>
-                                <i class="fa-brands fa-css3-alt fa-2xl p-1 me-3" style="color: #2266d3;" aria-label ="CSS"></i>
-                                <i class="fa-brands fa-php fa-2xl p-1 me-3" style="color: #291957;" aria-label ="PHP"></i> 
-                                <i class="fa-brands fa-js fa-2xl p-1 me-3" style="color: #f7bb18;" aria-label ="JavaScript"></i> 
-                                <i class="fa-brands fa-symfony fa-2xl p-1 me-3" aria-label ="Symfony"></i>
-                                <i class="fa-brands fa-react fa-2xl p-1 me-3" style="color: #0f77c7;" aria-label ="React"></i>
-                                <i class="fa-brands fa-bootstrap fa-2xl p-1 me-3" style="color: #450bf4;" aria-label ="Boostrap"></i>
-                                <i class="fa-solid fa-database fa-2xl p-1" aria-label="SQL"></i>
+                                <i class="fa-brands fa-html5 fa-2xl p-1 me-3 text-white" style="color: #dd5003;" aria-label ="HTML"></i>
+                                <i class="fa-brands fa-css3-alt fa-2xl p-1 me-3 text-white" style="color: #2266d3;" aria-label ="CSS"></i>
+                                <i class="fa-brands fa-php fa-2xl p-1 me-3 text-white" style="color: #291957;" aria-label ="PHP"></i> 
+                                <i class="fa-brands fa-js fa-2xl p-1 me-3 text-white" style="color: #f7bb18;" aria-label ="JavaScript"></i> 
+                                <i class="fa-brands fa-symfony fa-2xl p-1 me-3 text-white" aria-label="Symfony"></i>
+                                <i class="fa-brands fa-react fa-2xl p-1 me-3 text-white" style="color: #0f77c7;" aria-label ="React"></i>
+                                <i class="fa-brands fa-bootstrap fa-2xl p-1 me-3 text-white" style="color: #450bf4;" aria-label ="Boostrap"></i>
+                                <i class="fa-solid fa-database fa-2xl p-1 text-white" aria-label="SQL"></i>
                             </p>
                         </div>
                         <div class="col-lg-4 me-auto w-30 size-content">
                             <h3 class="subtitle-color">Soft Skill</h3>
-                            <ul>
+                            <ul class="text-white">
                                 <li>Adaptabilité</li>
                                 <li>Curiosité et créativité</li>
                                 <li>Capacité de travail en équipe</li>  
@@ -204,35 +207,14 @@
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-broom"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-broom text-color-medium"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Contact Section Form-->
-                 
-               <div class="row justify-content-center">
-                    <!-- <p class="request_message"> Message envoyé ! </p> -->
-                    
-                   <div class="col-lg-8 col-xl-7">
-                    <p> Le fomulaire de contact arrive bientôt ! En attendant vous pouvez me contacter directement par mail :</p>   
-                    <a href="mailto:jessica.troilo@me.com">jessica.troilo@me.com </a> <i class="ms-2 fa-solid fa-feather fa-xl"></i>.
-
-                        <!--  <form action="mail.php" method="post">
-                           <div class=" form-floating mb-3">
-                                <label class="form-label" for="name">Nom et Prénom</label>
-                                <input class="form-control" type="text" name="name" id="name" required>
-                           </div> 
-                           <div class="form-floating mb-3">
-                                <label class="form-label" for="email">Email</label>
-                                <input class="form-control" type="email" name="email" id="email" required>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" name="message" id="message" cols="30" rows="50" required></textarea>
-                                <label class="form-label" for="message">Message</label>
-                            </div> 
-                            <div class="col-md-12">
-                                <button type="submit" class="btn btn-color-link">Envoyer</button>
-                            </div>
-                        </form>-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+                        <p> Le fomulaire de contact arrive bientôt ! En attendant vous pouvez me contacter directement par mail :</p>   
+                        <a href="mailto:jessica.troilo@me.com">jessica.troilo@me.com </a> <i class="ms-2 fa-solid fa-feather fa-xl"></i>.
                     </div>
                 </div> 
             </div>
@@ -243,7 +225,7 @@
                 <div class="row">
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Localisation</h4>
+                        <h3 class="text-uppercase mb-4">Localisation</h3>
                         <p class="lead mb-0">
                             Ile-de-France
                             <br />
@@ -252,13 +234,13 @@
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Mes réseaux</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.linkedin.com/in/jessica-troilo-dev"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://github.com/jessicatroilo"><i class="fab fa-fw fa-github"></i></a>
+                        <h3 class="text-uppercase mb-4">Mes réseaux</h3>
+                        <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.linkedin.com/in/jessica-troilo-dev" aria-label ="Lien qui ouvre un nouvel onglet pour avoir mon profil Linkedin"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://github.com/jessicatroilo" aria-label ="Lien qui ouvre un nouvel onglet pour avoir mon profil Github"><i class="fab fa-fw fa-github"></i></a>
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">Développeuse FullStack</h4>
+                        <h3 class="text-uppercase mb-4">Développeuse FullStack</h3>
                         <p class="lead mb-0">
                             Une opportunité, une idée, un projet, contactez-moi
                             <a href="mailto:jessica.troilo@me.com">par mail ! </a> <i class="far fa-paper-plane"></i>
@@ -270,28 +252,28 @@
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white bg-nav-color">
-            <div class="container"><small>Copyright &copy; jessicatroilo.github.io 2024</small></div>
+            <div class="container"><small>Copyright &copy; jessicatroilo.github.io 2025</small></div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
+            <div class="modal-dialog modal-xl ">
                 <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bouton poour fermer la fenêtre"></button></div>
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bouton pour fermer la fenêtre"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Pokedex</h2>
+                                    <h2 class="portfolio-modal-title text-color-dark text-uppercase mb-0">Pokedex</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-baseball"></i></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-baseball text-color-dark"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/pokedex-list.png" alt="Screenshot du site Pokedex" />
+                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/pokedex-list.webp" alt="Screenshot du site Pokedex" />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4"> Site reprenant la liste des 151 pokémons composé de plusieurs pages : la liste des pokémons, la liste de catégories et le détail d'un pokémon avec ses caractéristiques. Projet réalisé en respectant le modèle MVC (Model-View-Controller).</p>
                                     <p class="mb-4"> Réalisé avec 
@@ -321,15 +303,15 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Shifumi Moon</h2>
+                                    <h2 class="portfolio-modal-title text-color-dark text-uppercase mb-0">Shifumi Moon</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-moon"></i></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-moon text-color-dark"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/shifumiMoon.png" alt="Screenshot du site Shifumi-moon" />
+                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/shifumiMoon.webp" alt="Screenshot du site Shifumi-moon" />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Jeu du Pierre-Feuille-Ciseau revisité en Cristal-Parchemin-Dague. Le joueur joue contre la machine en choissisant un des trois choix, puis le résultat s'affiche avec les choix séléctionnés et l'issue du match.</p>
                                     <p class="mb-4"> Réalisé avec 
@@ -358,15 +340,15 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tic Tac Toe</h2>
+                                    <h2 class="portfolio-modal-title text-uppercase mb-0 text-color-dark">Tic Tac Toe</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-flask"></i></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-flask text-color-dark"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/tictactoe.png" alt="Screenshot du site Tic Tac Toe" />
+                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/tictactoe.webp" alt="Screenshot du site Tic Tac Toe" />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Jeu du Tic Tac Toe (Morpion) revisité dans un unvivers magique. Deux joueurs s'affronte en plusieurs manches. Le résultat s'affiche à chaque fin de manches.</p>
                                     <p class="mb-4"> Réalisé avec 
@@ -399,15 +381,15 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">O'Galaxy</h2>
+                                    <h2 class="portfolio-modal-title text-uppercase mb-0 text-color-dark">O'Galaxy</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fa-solid fa-rocket"></i></div>
+                                        <div class="divider-custom-icon"><i class="fa-solid fa-rocket text-color-dark"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/ogalaxy-expedition.png" alt="Screenshot du site OGalaxy" />
+                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/ogalaxy-expedition.webp" alt="Screenshot du site OGalaxy" />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Au cours de mon projet de fin d'études, j'ai eu le privilège de collaborer avec une équipe de cinq personnes pour donner vie à une vision intergalactique. En l'espace de quatre semaines, nous avons conçu et développé le site web O'Galaxy de A à Z.
                                     </p>
@@ -444,15 +426,15 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Collection de mes patrons de couture</h2>
+                                    <h2 class="portfolio-modal-title text-color-dark text-uppercase mb-0 ">Collection de mes patrons de couture</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fa-solid fa-lines-leaning"></i></div>
+                                        <div class="divider-custom-icon"><i class="fa-solid fa-lines-leaning text-color-dark"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/patrons-couture.png" alt="Screenshot du site Ma collection de patron couture" />
+                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/patrons-couture.webp" alt="Screenshot du site Ma collection de patron couture" />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Présentation d'une partie de ma collection de patrons de couture dans un site totalement Responsive.</p>
                                     <p class="mb-4"> Réalisé avec 
@@ -507,6 +489,49 @@
                     </div>
                 </div>
             </div> -->
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bouton poour fermer la fenêtre"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-color-darktext-uppercase mb-0">Matcha Bloom</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fa-solid fa-seedling text-color-dark"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="public/assets/img/portfolio/matcha-bloom.webp" alt="Screenshot du site vitrine Matcha Bloom" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <h3 class="mb-4"> 🌿 Matcha Bloom - Démo de mon projet de site web fictif 🌿</h3>
+                                    <p class="mb-4"> Bienvenue sur Matcha Bloom, un projet de site web fictif pour un salon de thé 🍵✨. Ce site a été conçu dans le cadre de mon apprentissage et pour m'entraîner à développer des fonctionnalités en utilisant Symfony, Twig et Tailwind CSS.</p>
+                                    <p class="mb-4"> Réalisé avec 
+                                        <i class="fa-brands fa-symfony fa-2xl" style="color: #000000;" aria-label ="Symfony"></i> 
+                                        <i class="fa-brands fa-html5 fa-2xl" style="color: #dd5003;" aria-label ="HTML"></i>
+                                        <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2266d3;" aria-label ="CSS"></i> 
+                                        <i class="fa-brands fa-tailwindcss fa-2xl" style="color: #6ebaf8;" aria-label ="Tailwindcss"></i>
+                                    </p>
+                                    <a href="https://github.com/jessicatroilo/matcha-bloom-site-vitrine-fictif" target="_blank" aria-label="Lien qui ouvre un nouvel onglet pour avoir le code sur Github" class="btn btn-color">  
+                                        Code sur Github 
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="https://www.youtube.com/watch?v=ttVnbmLt73M&ab_channel=JessicaT." target="_blank" aria-label="Lien qui ouvre un nouvel onglet pour voir la vidéo Démo" class="btn btn-color-link">  
+                                        Vidéo démo - Youtube 
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -516,6 +541,6 @@
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        
     </body>
 </html>
